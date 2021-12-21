@@ -13,7 +13,6 @@ html {
 
 img {
     width: 100%;
-    height: 100%;
 }
 
 ol, ul {
@@ -47,6 +46,7 @@ a {
 
 .col-logo #logo {
     object-fit: contain;
+    height: 55px;
 }
 
 /* main nav */
@@ -90,6 +90,17 @@ a {
     background-color: #b4d0e7;
 }
 
+/* jumbo title */
+
+.container-jumbo .row-jumbo-top .col-12 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.row-jumbo-top .col-12 .jumbo-title {
+    font-size: calc( 3.5vw + 30px);
+}
+
 /* jumbotron bottom */
 
 .row-jumbo-bottom .col-4 {
@@ -99,10 +110,10 @@ a {
 
 .row-jumbo-bottom .col-8 {
     width: calc( ( 100% / 12 ) * 8);
-    min-height: 100px;
     border: 1px solid black;
 }
 
 .row-jumbo-bottom [class^="col"] {
     float: left;
 }
+
