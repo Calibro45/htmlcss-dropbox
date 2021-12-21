@@ -25,6 +25,12 @@ a {
     padding: 5px 5px;
 }
 
+input[type=radio] {
+    height: 1rem;
+    width: 1rem;
+    vertical-align: middle;
+}
+
 .clearfix::after {
     content: "";
     display: block;
@@ -41,6 +47,7 @@ a {
 .container .row-nav .col-logo {
     width: 160px;
     height: 55px;
+    margin-right: 20px;
     float: left;
 }
 
@@ -66,7 +73,7 @@ a {
 .main-menu .main-menu-left li, .main-menu .main-menu-right li {
     display: inline-block;
     line-height: 55px;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 .main-menu .main-menu-left li:hover, .main-menu .main-menu-right li:hover {
@@ -123,10 +130,14 @@ a {
 
 /* jumbo descpription */
 
+.row-jumbo-bottom .col-4 .module-jumbo-desc {
+    padding: 0 20px;
+}
+
 .row-jumbo-bottom .col-4 .module-jumbo-desc p {
     padding: 5px 10px;
     text-align: justify;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .module-jumbo-button .button {
@@ -154,7 +165,7 @@ a {
 
 .container-half .row-price-title .col-12, .container-half .row-price-wrap .col-12 {
     border: 1px solid black;
-    min-height: 200px;
+    min-height: 150px;
     float: left;
     width: 100%;
 }
@@ -165,3 +176,23 @@ a {
     border: 1px solid black;
     float: left;
 }
+
+/* module price title */
+
+.row-price-title .col-12 .module-price-wrap {
+    padding: 20px 10px;
+}
+
+.module-price-wrap .section-title {
+    font-size: calc( 1vw + 24px );
+    margin-bottom: 40px;
+}
+
+.module-price-wrap .plan-select label {
+    padding: 5px;
+    margin-right: 20px;
+} 
+
+
+
+
