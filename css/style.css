@@ -34,8 +34,9 @@ a {
 
 /* Barra navigazione */
 
-.container {
+.container.fluid {
     padding: 10px 15px;
+    max-width: 100%;
 }
 
 .container .row-nav .col-logo {
@@ -78,5 +79,7 @@ a {
     background-color: #0061ff;
     padding: 0 15px;
 }
+
+/* jumbotron */
 
 
