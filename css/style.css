@@ -77,7 +77,8 @@ a {
 .button {
     color: #fff;
     background-color: #0061ff;
-    padding: 0 15px;
+    padding: 5px 15px;
+    white-space: nowrap;
 }
 
 /* jumbotron */
@@ -99,21 +100,45 @@ a {
 
 .row-jumbo-top .col-12 .jumbo-title {
     font-size: calc( 3.5vw + 30px);
+    padding: 0 10px;
 }
 
 /* jumbotron bottom */
 
 .row-jumbo-bottom .col-4 {
     width: calc( (100% / 12) * 4 );
-    border: 1px solid black;
+    margin-right: 20px;
 }
 
 .row-jumbo-bottom .col-8 {
-    width: calc( ( 100% / 12 ) * 8);
-    border: 1px solid black;
+    width: calc( ( 100% / 12 ) * 8 - 20px);
 }
 
 .row-jumbo-bottom [class^="col"] {
     float: left;
 }
 
+
+/* jumbo descpription */
+
+.row-jumbo-bottom .col-4 .module-jumbo-desc p {
+    padding: 5px 10px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.module-jumbo-button .button {
+    margin-left: 10px;
+}
+
+.module-jumbo-button span {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.fas.fa-arrow-down {
+    font-size: 28px;
+    padding: 5px 10px;
+    
+}
