@@ -94,8 +94,7 @@ a {
 /* jumbo title */
 
 .container-jumbo .row-jumbo-top .col-12 {
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
 .row-jumbo-top .col-12 .jumbo-title {
@@ -118,6 +117,9 @@ a {
     float: left;
 }
 
+.translate {
+    transform: translate( 0,20% );
+}
 
 /* jumbo descpription */
 
@@ -139,6 +141,6 @@ a {
 
 .fas.fa-arrow-down {
     font-size: 28px;
-    padding: 5px 10px;
-    
+    padding: 5px 10px; 
 }
+
