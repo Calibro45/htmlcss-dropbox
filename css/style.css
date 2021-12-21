@@ -146,3 +146,22 @@ a {
 
 /* seconda sezione piani e prezzi */
 
+.container-half {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 100px 0 50px 0;
+}
+
+.container-half .row-price-title .col-12, .container-half .row-price-wrap .col-12 {
+    border: 1px solid black;
+    min-height: 200px;
+    float: left;
+    width: 100%;
+}
+
+.container-half .row-price-wrap .col-8 {
+    width: calc( 100% / 3 );
+    min-height: 1000px;
+    border: 1px solid black;
+    float: left;
+}
