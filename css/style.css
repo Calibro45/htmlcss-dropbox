@@ -11,3 +11,53 @@ html {
     font-size: 16px;
 }
 
+img {
+    width: 100%;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Barra navigazione */
+
+.container .row-nav .col-logo {
+    width: 160px;
+    height: 55px;
+    float: left;
+}
+
+/* main nav */
+
+.main-menu.left, .main-menu.right {
+    max-width: 420px;
+}
+
+.row-nav .main-menu.left {
+    float: left;
+}
+
+.row-nav .main-menu.right {
+    float: right;
+}
+
+.main-menu .main-menu-left li, .main-menu .main-menu-right li {
+    display: inline-block;
+}
+
+
+/* cta start */
+
+
+
