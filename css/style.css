@@ -126,10 +126,6 @@ input[type=radio] {
     float: left;
 }
 
-.translate {
-    transform: translate( 0,20% );
-}
-
 /* jumbo descpription */
 
 .row-jumbo-bottom .col-4 .module-jumbo-desc {
@@ -154,6 +150,10 @@ input[type=radio] {
 .fas.fa-arrow-down {
     font-size: 28px;
     padding: 5px 10px; 
+}
+
+.row-jumbo-bottom .jumbo__img {
+    margin-bottom: -100px;
 }
 
 /* seconda sezione piani e prezzi */
