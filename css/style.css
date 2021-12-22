@@ -261,7 +261,7 @@ input[type=radio] {
     padding: 20px 0;
 }
 
-#plan-select .card__body:after {
+#plan-select .col-4 .card__body:after {
     content: "";
     display: block;
     background-color: #c9c9c9;
@@ -280,6 +280,24 @@ input[type=radio] {
     color: #0061ff;
 }
 
+/* card variant */
+
+#plan-select .col-12 [class*="col"] {
+    float: left;
+}
+ 
+#plan-select .row.price-wrap .col-12 {
+    margin: 40px 0;
+}
+
+#plan-select .col-12 .card__body p {
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+#plan-select .col-12 .shop-sell {
+    padding: 35px 20px;
+}
 
 /**************** 
 
@@ -287,12 +305,7 @@ input[type=radio] {
 
 ****************/
 
-.debug .col-12{
-    min-height: 150px;
-    border: 1px solid #d0d0d3;
-}
-
-.debug .col-4 {
-    min-height: 1000px;
-    border: 1px solid #d0d0d3;
+.debug {
+    border: 2px solid black;
+    min-height: 200px;
 }
