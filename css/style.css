@@ -31,6 +31,22 @@ input[type=radio] {
     vertical-align: middle;
 }
 
+.row [class^="col"] {
+    float:left;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
 .clearfix::after {
     content: "";
     display: block;
@@ -90,6 +106,10 @@ input[type=radio] {
     white-space: nowrap;
 }
 
+.full-with {
+    width: 100%;
+}
+
 /* jumbotron */
 
 #jumbotron .container-jumbo {
@@ -102,33 +122,19 @@ input[type=radio] {
 
 /* jumbo title */
 
-.container-jumbo .row-jumbo-top .col-12 {
+#jumpotron .row.jumbo-top .col-12 {
     padding: 20px;
 }
 
-.row-jumbo-top .col-12 .jumbo-title {
+#jumbotron .row.jumbo-top .jumbo-title {
     font-size: calc( 3.5vw + 30px);
-    padding: 0 10px;
-}
-
-/* jumbotron bottom */
-
-.row-jumbo-bottom .col-4 {
-    width: calc( (100% / 12) * 4 );
-    margin-right: 20px;
-}
-
-.row-jumbo-bottom .col-8 {
-    width: calc( ( 100% / 12 ) * 8 - 20px);
-}
-
-.row-jumbo-bottom [class^="col"] {
-    float: left;
+    padding: 0 20px;
+    margin-bottom: 40px;
 }
 
 /* jumbo descpription */
 
-.row-jumbo-bottom .col-4 .module-jumbo-desc {
+.row.jumbo-bottom .col-4 .module-jumbo-desc {
     padding: 0 20px;
 }
 
@@ -140,6 +146,7 @@ input[type=radio] {
 
 .module-jumbo-button .discharge {
     margin-top: 15px;
+    font-size: 14px;
 }
 
 .module-jumbo-button .button {
@@ -152,7 +159,7 @@ input[type=radio] {
     padding: 5px 10px; 
 }
 
-.row-jumbo-bottom .jumbo__img {
+.row.jumbo-bottom .jumbo__img {
     margin-bottom: -100px;
 }
 
@@ -164,32 +171,28 @@ input[type=radio] {
     padding: 100px 0 50px 0;
 }
 
-.container-half .row-price-title .col-12, .container-half .row-price-wrap .col-12 {
+.debug .col-12{
     border: 1px solid #d0d0d3;
     min-height: 150px;
-    float: left;
-    width: 100%;
 }
 
-.container-half .row-price-wrap .col-8 {
-    width: calc( 100% / 3 );
+.debug .col-4 {
     min-height: 1000px;
     border: 1px solid #d0d0d3;
-    float: left;
 }
 
 /* module price title */
 
-.row-price-title .col-12 .module-price-wrap {
+#plan-select .module-price-wrap {
     padding: 20px 10px;
 }
 
-.module-price-wrap .section-title {
+#plan-select .section-title {
     font-size: calc( 1vw + 24px );
     margin-bottom: 40px;
 }
 
-.module-price-wrap .plan-select label {
+#plan-select .plan-select label {
     padding: 5px;
     margin-right: 20px;
 } 
