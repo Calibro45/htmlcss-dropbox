@@ -209,6 +209,10 @@ input[type=radio] {
     border: 1px solid #d0d0d3;
 }
 
+#plan-select .card__wrapper.height {
+    min-height: 1000px;
+}
+
 #plan-select .card__wrapper [class^="card"] {
     padding: 15px 30px;
 }
