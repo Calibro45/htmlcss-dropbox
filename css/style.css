@@ -104,10 +104,12 @@ input[type=radio] {
     text-align: center;
     padding: 5px 15px;
     white-space: nowrap;
+    font-size: 16px;
 }
 
-.full-with {
+.full-width {
     width: 100%;
+    display: inline-block;
 }
 
 /* jumbotron */
@@ -171,19 +173,13 @@ input[type=radio] {
     padding: 100px 0 50px 0;
 }
 
-.debug .col-12{
-    border: 1px solid #d0d0d3;
-    min-height: 150px;
+/* plan title */
+
+#plan-select .row.plan-title {
+    margin-top: 100px;
 }
 
-.debug .col-4 {
-    min-height: 1000px;
-    border: 1px solid #d0d0d3;
-}
-
-/* module price title */
-
-#plan-select .module-price-wrap {
+#plan-select .plan-wrap {
     padding: 20px 10px;
 }
 
@@ -197,6 +193,85 @@ input[type=radio] {
     margin-right: 20px;
 } 
 
+/* plan card */
+
+#plan-select .card__wrapper {
+    border: 1px solid #d0d0d3;
+}
+
+#plan-select .card__wrapper [class^="card"] {
+    padding: 15px 30px;
+}
+
+#plan-select .card-header {
+    border-bottom: 1px solid #d0d0d3;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* card body */
+
+#plan-select .card__body {
+    font-size: 14px;
+}
+
+ #plan-select .plan-title {
+    font-size: 28px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+#plan-select .plan-price {
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+#plan-select .plan-lenght {
+    color: #637381;
+    padding: 5px 0;
+}
+
+#plan-select .plan-features {
+    margin: 30px 0 30px 0;
+}
+
+#plan-select .plan-features li {
+    padding: 15px 0;
+    text-align: justify;
+}
+
+#plan-select .shop-now {
+    color: #0564ff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#plan-select .cta-card p {
+    padding: 20px 0;
+}
+
+#plan-select .card__body:after {
+    content: "";
+    display: block;
+    background-color: #c9c9c9;
+    height: 1px;
+    width: 50px;
+}
 
 
+/**************** 
 
+    debug
+
+****************/
+
+.debug .col-12{
+    min-height: 150px;
+    border: 1px solid #d0d0d3;
+}
+
+.debug .col-4 {
+    min-height: 1000px;
+    border: 1px solid #d0d0d3;
+}
