@@ -16,7 +16,7 @@ img {
 }
 
 ol, ul {
-    list-style: none;
+    list-style-type: none;
 }
 
 a {
@@ -84,6 +84,8 @@ input[type=radio] {
 .button {
     color: #fff;
     background-color: #0061ff;
+    border: 1px solid #0061ff;
+    text-align: center;
     padding: 5px 15px;
     white-space: nowrap;
 }
@@ -134,20 +136,19 @@ input[type=radio] {
     padding: 0 20px;
 }
 
-.row-jumbo-bottom .col-4 .module-jumbo-desc p {
+.module-jumbo-desc p {
     padding: 5px 10px;
     text-align: justify;
     margin-bottom: 20px;
 }
 
-.module-jumbo-button .button {
-    margin-left: 10px;
+.module-jumbo-button .discharge {
+    margin-top: 15px;
 }
 
-.module-jumbo-button span {
-    display: block;
-    margin-bottom: 10px;
-    padding: 10px;
+.module-jumbo-button .button {
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 .fas.fa-arrow-down {
@@ -164,7 +165,7 @@ input[type=radio] {
 }
 
 .container-half .row-price-title .col-12, .container-half .row-price-wrap .col-12 {
-    border: 1px solid black;
+    border: 1px solid #d0d0d3;
     min-height: 150px;
     float: left;
     width: 100%;
@@ -173,7 +174,7 @@ input[type=radio] {
 .container-half .row-price-wrap .col-8 {
     width: calc( 100% / 3 );
     min-height: 1000px;
-    border: 1px solid black;
+    border: 1px solid #d0d0d3;
     float: left;
 }
 
