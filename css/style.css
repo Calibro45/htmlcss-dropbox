@@ -346,7 +346,7 @@ input[type=radio] {
 
 ****************/
 
-.debug .col-8, .debug .col-4{
+.debug .col-8, .debug .col-4, .debug .col-12 {
     border: 2px solid black;
     min-height: 200px;
 }
