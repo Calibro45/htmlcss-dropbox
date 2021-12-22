@@ -141,6 +141,7 @@ input[type=radio] {
 }
 
 .module-jumbo-desc p {
+    font-size: 20px;
     padding: 5px 10px;
     text-align: justify;
     margin-bottom: 20px;
@@ -148,12 +149,13 @@ input[type=radio] {
 
 .module-jumbo-button .discharge {
     margin-top: 15px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .module-jumbo-button .button {
     margin-left: 10px;
     margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .fas.fa-arrow-down {
@@ -212,27 +214,27 @@ input[type=radio] {
 
 /* card body */
 
-#plan-select .card__body {
+#plan-select .card__body, #plan-select .card__footer {
     font-size: 14px;
 }
 
- #plan-select .plan-title {
+ #plan-select .card__body .plan-title {
     font-size: 28px;
     font-weight: 700;
     padding: 20px 0;
 }
 
-#plan-select .plan-price {
+#plan-select .card__body .plan-price {
     font-size: 18px;
     padding: 5px 0;
 }
 
-#plan-select .plan-lenght {
+#plan-select .card__body .plan-lenght {
     color: #637381;
     padding: 5px 0;
 }
 
-#plan-select .plan-features {
+#plan-select .card__body .plan-features {
     margin: 30px 0 30px 0;
 }
 
@@ -241,13 +243,13 @@ input[type=radio] {
     text-align: justify;
 }
 
-#plan-select .shop-now {
+#plan-select .card__body .shop-now {
     color: #0564ff;
     text-decoration: underline;
     font-weight: bold;
 }
 
-#plan-select .cta-card p {
+#plan-select .card__body .cta-card p {
     padding: 20px 0;
 }
 
@@ -257,6 +259,17 @@ input[type=radio] {
     background-color: #c9c9c9;
     height: 1px;
     width: 50px;
+}
+
+/* card footer */
+
+#plan-select .card__footer .plan-utilities {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.fas.fa-check {
+    color: #0061ff;
 }
 
 
