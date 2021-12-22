@@ -86,12 +86,12 @@ input[type=radio] {
 }
 
 .container-lg {
-    max-width: 80%;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
 .container-half {
-    max-width: 60%;
+    max-width: 1080px;
     margin: 0 auto;
     padding: 100px 0 50px 0;
 }
@@ -145,7 +145,7 @@ input[type=radio] {
 }
 
 #jumbotron .row.jumbo-top .jumbo-title {
-    font-size: calc( 3.5vw + 30px);
+    font-size: calc( 2vw + 40px);
     padding: 0 20px;
     margin-bottom: 40px;
 }
@@ -207,11 +207,13 @@ input[type=radio] {
 
 /* plan card */
 
+
+
 #plan-select .row.price-wrap {
     margin: 0 -20px;
 }
 
-#plan-select [class^="col"] {
+#plan-select .row.price-wrap [class^="col"] {
     padding: 0 20px;
 }
 
