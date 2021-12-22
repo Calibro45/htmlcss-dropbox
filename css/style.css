@@ -197,6 +197,14 @@ input[type=radio] {
 
 /* plan card */
 
+#plan-select .row.price-wrap {
+    margin: 0 -20px;
+}
+
+#plan-select [class^="col"] {
+    padding: 0 20px;
+}
+
 #plan-select .card__wrapper {
     border: 1px solid #d0d0d3;
 }
