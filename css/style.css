@@ -52,12 +52,48 @@ input[type=radio] {
     display: block;
     clear: both;
 }
+/* cta utilities */
+
+.button {
+    color: #fff;
+    background-color: #0061ff;
+    border: 1px solid #0061ff;
+    text-align: center;
+    padding: 5px 15px;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.button-alt {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px 15px;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.full-width {
+    width: 100%;
+    display: inline-block;
+}
 
 /* Barra navigazione */
 
 .container.fluid {
     padding: 10px 15px;
     max-width: 100%;
+    
+}
+
+.container-lg {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.container-half {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 100px 0 50px 0;
 }
 
 .container .row-nav .col-logo {
@@ -95,29 +131,9 @@ input[type=radio] {
 .main-menu .main-menu-left li:hover, .main-menu .main-menu-right li:hover {
     font-weight: bold;
 }
-/* cta start */
-
-.button {
-    color: #fff;
-    background-color: #0061ff;
-    border: 1px solid #0061ff;
-    text-align: center;
-    padding: 5px 15px;
-    white-space: nowrap;
-    font-size: 16px;
-}
-
-.full-width {
-    width: 100%;
-    display: inline-block;
-}
 
 /* jumbotron */
 
-#jumbotron .container-jumbo {
-    max-width: 80%;
-    margin: 0 auto;
-}
 #jumbotron {
     background-color: #b4d0e7;
 }
@@ -168,12 +184,6 @@ input[type=radio] {
 }
 
 /* seconda sezione piani e prezzi */
-
-.container-half {
-    max-width: 60%;
-    margin: 0 auto;
-    padding: 100px 0 50px 0;
-}
 
 /* plan title */
 
@@ -303,13 +313,38 @@ input[type=radio] {
     padding: 35px 20px;
 }
 
+/* partner section */
+
+#partner .row.partner {
+    margin: 0 -20px;
+}
+
+#partner .row.partner [class^="col"] {
+    padding: 0 20px;
+}
+
+#partner .partner__desc {
+    padding: 40px 20px;
+}
+
+#partner .partner-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#partner .partner__desc p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
 /**************** 
 
     debug
 
 ****************/
 
-.debug {
+.debug .col-8, .debug .col-4{
     border: 2px solid black;
     min-height: 200px;
 }
