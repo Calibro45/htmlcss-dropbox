@@ -40,6 +40,10 @@ input[type=radio] {
     float:left;
 }
 
+.col-2{
+    width: 16.66%;
+}
+
 .col-3 {
     width: 25%;
 }
@@ -403,10 +407,23 @@ input[type=radio] {
 
 /* section business */
 
+#business .row .module__svg {
+    position: relative;
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+    min-height: 250px;
+}
 
+#business .module__svg .svg-wrapper { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-
-
+#business .svg-wrapper .svg-team {
+    fill: #fff;
+}
 
 /**************** 
 
