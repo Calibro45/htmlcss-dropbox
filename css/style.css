@@ -52,7 +52,7 @@ input[type=radio] {
     display: block;
     clear: both;
 }
-/* cta utilities */
+/* utilities */
 
 .button {
     color: #fff;
@@ -80,6 +80,11 @@ input[type=radio] {
 .text-indent {
     display: inline-block;
     text-indent: 1rem;
+}
+
+.underline {
+    text-decoration: 2px underline;
+    text-decoration-color: #7f7f7f;
 }
 
 /* Barra navigazione */
@@ -247,7 +252,7 @@ input[type=radio] {
     font-size: 14px;
 }
 
- #plan-select .card__body .plan-title {
+ #plan-select .card__body .plan-title, #function .plan-title {
     font-size: 28px;
     font-weight: 700;
     padding: 20px 0;
@@ -343,6 +348,15 @@ input[type=radio] {
     margin-bottom: 20px;
 }
 
+/* card function */
+
+#function .card-function-body p:only-of-type {
+    line-height: 1.4;
+}
+
+#function .row [class="col-4"] {
+    
+}
 
 
 
