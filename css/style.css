@@ -422,7 +422,7 @@ input[type=radio] {
 }
 
 #business .svg-wrapper .svg-team {
-    fill: #fff;
+    fill: #fff !important;
 }
 
 /**************** 
