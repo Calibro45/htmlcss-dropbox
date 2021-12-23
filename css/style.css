@@ -77,6 +77,11 @@ input[type=radio] {
     display: inline-block;
 }
 
+.text-indent {
+    display: inline-block;
+    text-indent: 1rem;
+}
+
 /* Barra navigazione */
 
 .container.fluid {
@@ -264,7 +269,6 @@ input[type=radio] {
 
 #plan-select .plan-features li {
     padding: 15px 0;
-    text-align: justify;
 }
 
 #plan-select .card__body .shop-now {
@@ -338,6 +342,11 @@ input[type=radio] {
     line-height: 1.5;
     margin-bottom: 20px;
 }
+
+
+
+
+
 
 
 /**************** 
