@@ -54,6 +54,11 @@ input[type=radio] {
 }
 /* utilities */
 
+.section-title {
+    font-size: calc( 1vw + 24px );
+    margin-bottom: 40px;
+}
+
 .button {
     color: #fff;
     background-color: #0061ff;
@@ -82,10 +87,6 @@ input[type=radio] {
     text-indent: 1rem;
 }
 
-.underline {
-    text-decoration: 2px underline;
-    text-decoration-color: #7f7f7f;
-}
 
 /* Barra navigazione */
 
@@ -193,22 +194,22 @@ input[type=radio] {
     margin-bottom: -100px;
 }
 
+.row.jumbo-bottom {
+    margin-bottom: 100px;
+}
+
 /* seconda sezione piani e prezzi */
 
 /* plan title */
 
-#plan-select .row.plan-title {
-    margin-top: 100px;
+#plan-select .row.plan-title .col-12 {
+    padding: 20px 0;
 }
 
 #plan-select .plan-wrap {
     padding: 20px 10px;
 }
 
-#plan-select .section-title {
-    font-size: calc( 1vw + 24px );
-    margin-bottom: 40px;
-}
 
 #plan-select .plan-select label {
     padding: 5px;
@@ -252,7 +253,7 @@ input[type=radio] {
     font-size: 14px;
 }
 
- #plan-select .card__body .plan-title, #function .plan-title {
+#plan-select .card__body .plan-title, #function .plan-title {
     font-size: 28px;
     font-weight: 700;
     padding: 20px 0;
@@ -310,7 +311,7 @@ input[type=radio] {
 #plan-select .col-12 [class*="col"] {
     float: left;
 }
- 
+
 #plan-select .row.price-wrap .col-12 {
     margin: 40px 0;
 }
@@ -350,14 +351,34 @@ input[type=radio] {
 
 /* card function */
 
+
+#function .row.function-card {
+    margin: 0 -30px;
+    padding: 20px 0;
+}
+
+#function .row [class="col-4"] {
+    padding: 0 30px;
+}
+
 #function .card-function-body p:only-of-type {
     line-height: 1.4;
 }
 
-#function .row [class="col-4"] {
-    
+.underline {
+    text-decoration: 2px underline;
+    text-decoration-color: #7f7f7f;
+    padding: 0;
 }
 
+.underline:hover {
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration-color: #7f7f7f;
+    box-shadow: 5px 3px 5px 2px #7f7f7f;
+    background-color: #7e7e7e7e;
+    padding: 2px 5px;
+}
 
 
 
@@ -365,7 +386,7 @@ input[type=radio] {
 
 /**************** 
 
-    debug
+debug
 
 ****************/
 
