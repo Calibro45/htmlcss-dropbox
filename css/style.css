@@ -499,6 +499,7 @@ input[type=radio] {
 #business .shop__business .cta-business {
     float: right;
     min-width: 350px;
+    padding: 0 20px;
 }
 
 #business .cta-business .button-alt {
