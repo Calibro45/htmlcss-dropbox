@@ -87,6 +87,7 @@ input[type=radio] {
 }
 
 .button-alt {
+    background-color: #fff;
     border: 1px solid black;
     text-align: center;
     padding: 5px 15px;
@@ -310,7 +311,7 @@ input[type=radio] {
     padding: 20px 0;
 }
 
-#plan-select .col-4 .card__body:after {
+#plan-select .col-4 .card__body:after  {
     content: "";
     display: block;
     background-color: #c9c9c9;
@@ -409,7 +410,7 @@ input[type=radio] {
 
 #business .row .module__svg {
     position: relative;
-    min-height: 250px;
+    min-height: 300px;
 }
 
 #business .row .module__svg:hover {
@@ -425,9 +426,34 @@ input[type=radio] {
 }
 
 #business .svg-wrapper .svg-team {
-    fill: #fff!important;
+    fill: #fff;
 }
 
+#business .module__team {
+    padding: 40px 50px;
+    background-color: #f5f5f5;
+    min-height: 600px;
+}
+
+#business .row .designit {
+    max-width: 150px;
+    margin-bottom: 50px;
+}
+
+#business .module__team .team-descript p {
+    line-height: 1.4;
+    font-size: 18px;
+    margin-bottom: 44px;
+}
+
+#business .module__team .designit::after {
+    content: "";
+    display: block;
+    background-color: #c9c9c9;
+    height: 1px;
+    width: 50px;
+    margin-top: 30px;
+}
 
 /* background loghi business */
 
@@ -455,7 +481,7 @@ input[type=radio] {
     background-color: #0d2481;
 }
 
-.module__svg.lightblue {
+.module__svg.lightblue, .lightblue {
     background-color: #b4d0e7;
 }
 
@@ -463,6 +489,21 @@ input[type=radio] {
     background-color: #ffd830;
 }
 
+/* shop dropbox business */
+
+#business .shop__business .title-shop-business {
+    float: left;
+    max-width: 550px;
+}
+
+#business .shop__business .cta-business {
+    float: right;
+    min-width: 350px;
+}
+
+#business .cta-business .button-alt {
+    border: #fff;
+}
 
 
 
@@ -476,7 +517,8 @@ debug
 
 ****************/
 
-.debug [class^="col"] {
+.debug [class^="col"], .debug .module__svg {
     border: 2px solid black;
     min-height: 200px;
 }
+
