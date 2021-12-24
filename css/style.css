@@ -409,9 +409,12 @@ input[type=radio] {
 
 #business .row .module__svg {
     position: relative;
-    background-color: #a2d39b;
-    border: 10px solid #d0e9cd;
     min-height: 250px;
+}
+
+#business .row .module__svg:hover {
+    cursor: pointer;
+    border: 10px solid #d0e9cd;
 }
 
 #business .module__svg .svg-wrapper { 
@@ -422,8 +425,50 @@ input[type=radio] {
 }
 
 #business .svg-wrapper .svg-team {
-    fill: #fff !important;
+    fill: #fff!important;
 }
+
+
+/* background loghi business */
+
+.module__svg.green {
+    background-color: #a2d39b;
+}
+
+.module__svg.blue {
+    background-color: #0093ce;
+}
+
+.module__svg.purple {
+    background-color: #61082b;
+}
+
+.module__svg.red {
+    background-color: #ff1c1c;
+}
+
+.module__svg.magenta {
+    background-color: #d5001f;
+}
+
+.module__svg.darkblue {
+    background-color: #0d2481;
+}
+
+.module__svg.lightblue {
+    background-color: #b4d0e7;
+}
+
+.module__svg.yellow {
+    background-color: #ffd830;
+}
+
+
+
+
+
+
+
 
 /**************** 
 
