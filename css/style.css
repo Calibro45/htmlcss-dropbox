@@ -73,6 +73,7 @@ input[type=radio] {
     display: block;
     clear: both;
 }
+
 /* utilities */
 
 .section-title {
@@ -132,7 +133,7 @@ input[type=radio] {
 .container-half {
     max-width: 1080px;
     margin: 0 auto;
-    padding: 100px 0 50px 0;
+    padding: 100px 15px 50px 15px;
 }
 
 .container .row-nav .col-logo {
@@ -246,8 +247,6 @@ input[type=radio] {
 
 /* plan card */
 
-
-
 #plan-select .row.price-wrap {
     margin: 0 -20px;
 }
@@ -349,7 +348,7 @@ input[type=radio] {
     padding: 20px 0;
 }
 
-#plan-select .col-12 .shop-sell {
+#plan-select .col-12 .col-4.shop-sell {
     padding: 35px 20px;
 }
 
@@ -535,9 +534,24 @@ input[type=radio] {
 
 /* footer */
 
+#footer .container.fluid {
+    background-color: #000;
+    color: #fff;
+}
 
+#footer .row [class^="col"] {
+    padding: 50px 20px;
+}
 
+#footer .row .info-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
 
+#footer .row .info_list li {
+    padding: 10px 0;
+}
 
 /**************** 
 
@@ -545,8 +559,8 @@ debug
 
 ****************/
 
-.debug [class^="col"], .debug .module__svg {
-    border: 2px solid black;
+.debug [class^="col"] {
+    border: 2px solid white;
     min-height: 200px;
 }
 
