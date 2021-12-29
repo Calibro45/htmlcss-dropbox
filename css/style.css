@@ -512,6 +512,10 @@ input[type=radio] {
 
 /* frequently ask questions */
 
+#questions .row.ask__question {
+    margin-bottom: 50px;
+}
+
 #questions .ask__question [class^="col"] {
     border-bottom: 1px solid #dcdcde;
     font-weight: bold;
@@ -543,15 +547,44 @@ input[type=radio] {
     padding: 50px 20px;
 }
 
+/* info contact list */
+
 #footer .row .info-title {
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 10px;
     padding: 0 5px;
 }
 
 #footer .row .info_list li {
-    padding: 10px 0;
+    padding: 5px 0;
+    font-size: 14px;
 }
+
+/* language select */
+
+#footer .row .col-12 .language-select::before {
+    content: "";
+    display: block;
+    background-color: #BFBFBF;
+    height: 1px;
+    width: 100px;
+    margin-bottom: 50px;
+}
+
+#footer .row .col-12 .language-select {
+    font-size: 14px;
+    color: #999999;
+    padding: 20px 5px;
+}
+
+#footer .language-select .fas.fa-sort-up {
+    vertical-align: sub;
+}
+
+#footer .language-select .fas.fa-globe-americas {
+    font-size: 16px;
+}
+
 
 /**************** 
 
