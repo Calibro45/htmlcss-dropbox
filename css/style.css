@@ -9,6 +9,7 @@
 html {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 img {
@@ -103,6 +104,16 @@ input[type=radio] {
 .full-width {
     width: 100%;
     display: inline-block;
+}
+
+.button:hover {
+    box-shadow: 2px 5px 10px 2px #0061ff;
+    font-weight: bold;
+}
+
+.button-alt:hover {
+    box-shadow: 3px 5px 10px 3px #ccc;
+    font-weight: bold;
 }
 
 .text-indent {
@@ -419,6 +430,8 @@ input[type=radio] {
 #business .row .module__svg:hover {
     cursor: pointer;
     border: 10px solid #d0e9cd;
+    transform: rotatez( 360deg );
+    transition: all 700ms ease-in-out;
 }
 
 #business .module__svg .svg-wrapper { 
@@ -560,9 +573,13 @@ input[type=radio] {
     font-size: 14px;
 }
 
+#footer [class="info_list"] > li:hover {
+    text-decoration: underline #fff;
+}
+
 /* language select */
 
-#footer .row .col-12 .language-select::before {
+#footer .row .language-select::before {
     content: "";
     display: block;
     background-color: #BFBFBF;
@@ -571,20 +588,21 @@ input[type=radio] {
     margin-bottom: 50px;
 }
 
-#footer .row .col-12 .language-select {
+#footer .row .language-select {
     font-size: 14px;
     color: #999999;
-    padding: 20px 5px;
+    padding: 20px;
 }
 
-#footer .language-select .fas.fa-sort-up {
-    vertical-align: sub;
-}
-
-#footer .language-select .fas.fa-globe-americas {
+#footer .fas.fa-globe-americas {
     font-size: 16px;
 }
 
+#footer .language-select select {
+    background-color: #000;
+    border: none;
+    color: #999;
+}
 
 /**************** 
 
